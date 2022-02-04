@@ -150,8 +150,8 @@ body {
 }
 
 
-
-.bullshit-text {
-  text-align: center;
-  color: #115ba6;
+.video {
+  width: 100%;
+  display: none;
 }
+
