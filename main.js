@@ -15,6 +15,7 @@ function playVideo() {
   vid.className = "video";
   vid.src = "./vids/video.mp4";
   vid.style.width = "100%";
+  vid.preload = "auto";
   vid.play();
   document.body.appendChild(vid);
   let text = document.createElement("h1");
